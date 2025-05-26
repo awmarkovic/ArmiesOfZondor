@@ -1,0 +1,53 @@
+.army-category-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.army-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.army-card img {
+  width: 100px;
+  border-radius: 15px;
+}
+
+.filter-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.filter-container label {
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+.filter-container select {
+  background-color: wheat;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 4px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.filter-container select:hover {
+  border-color: #555;
+  background-color: rgb(242, 228, 203);
+}

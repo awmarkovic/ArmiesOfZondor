@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gathering Army</title>
+    <!--Source for favicon: https://icons8.com/icons/set/warrior-->
+    <link rel="icon" href="./images/favicon1.png" type="image/png" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/getting-resources.css" />
+    <script type="module" src="./scripts/getting-resources.js"></script>
+  </head>
+  <body>
+    <main>
+      <div id="resource-container"></div>
+
+      <section class="resource-section">
+        <h2>Get resources</h2>
+        <p>Get a random amount of resources by clicking the images!</p>
+
+        <div id="images-container">
+          <div id="wood-container">
+            <img
+              id="wood-picture"
+              src="./images/woods-of-ghalduz.png"
+              alt="Woods of Ghalduz"
+            />
+          </div>
+
+          <div id="mines-container">
+            <img
+              id="mines-picture"
+              src="./images/mines-of-thiartha.jpg"
+              alt="Mines of Thiartha"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--Output-div to get noted what resources we recieve by clicking the images-->
+      <section id="output-wrapper">
+        <div id="output-div"></div>
+      </section>
+    </main>
+  </body>
+</html>

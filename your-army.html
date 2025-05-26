@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gathering Army</title>
+    <link rel="icon" href="./images/favicon1.png" type="image/png" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/your-army.css" />
+    <script type="module" src="./scripts/your-army.js"></script>
+  </head>
+  <body>
+    <main>
+      <div id="resource-container"></div>
+
+      <section>
+        <h2>Warriors</h3>
+        <div class="filter-container">
+        <label for="warrior-filter">Filter by Warrior: </label>
+        <select id="warrior-filter">
+          <option value="all">All</option>
+          <option value="snake">Snake</option>
+          <option value="giant">Giant</option>
+          <option value="big-axe">Big Axe</option>
+          <option value="thief">Thief</option>
+          <option value="tanks">Tanks</option>
+          <option value="berserker">Berserker</option>
+        </select>
+      </div>
+        <div class= "army-category-container" id="warriors-container">
+            <!--Warriors will be displayed-->
+        </div>
+    </section>
+
+    <section>
+        <h2>Animals</h3>
+          <div class="filter-container">
+          <label for="animal-filter">Filter by Animal: </label>
+          <select id="animal-filter">
+            <option value="all">All</option>
+            <option value="Elephant">Elephant</option>
+            <option value="Horse">Horse</option>
+          </select>
+        </div>
+        <div class= "army-category-container" id="animal-container">
+        <!--Animal and war machines will be displayed-->
+        </div>
+    </section>
+
+    <section>
+        <h2>War Machines</h3>
+          <div class="filter-container">
+          <label for="war-machine-filter">Filter by War Machine: </label>
+          <select id="war-machine-filter">
+            <option value="all">All</option>
+            <option value="Cannon">Cannon</option>
+            <option value="Catapult">Catapult</option>
+          </select>
+        </div>  
+        <div class= "army-category-container" id="war-machine-container">
+        <!--War machines will be displayed-->
+        </div>
+    </section>
+    
+    </main>
+  </body>
+</html>
